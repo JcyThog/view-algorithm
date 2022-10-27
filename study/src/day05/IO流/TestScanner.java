@@ -1,4 +1,4 @@
-package day05;
+package day05.IO流;
 
 import java.util.Scanner;
 
