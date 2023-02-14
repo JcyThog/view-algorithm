@@ -49,5 +49,18 @@ public class OpOb {
     //为了对类中的参数进行修改我们取消安全检查
     privateMethod.setAccessible(true);
     privateMethod.invoke(target);
+
+    int i = 1;
+    String s = "江江";
+    t1(i, s);
+    t2(s);
+  }
+
+  public static void t1(Object... a) {
+    System.out.println("这是一个object...: "+a);
+  }
+
+  public static void t2(String... s) {
+    System.out.println("这是一个String...: "+s);
   }
 }
