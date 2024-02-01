@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/JcyThog/view/issues"
   },
-  "homepage": "https://github.com/JcyThog/view#readme"
+  "homepage": "https://github.com/JcyThog/view#readme",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }

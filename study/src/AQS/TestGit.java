@@ -9,5 +9,7 @@ public class TestGit {
 
     public static void main(String[] args) {
 
+
+        Integer integer = 1;
     }
 }
