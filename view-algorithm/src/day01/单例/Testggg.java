@@ -6,7 +6,5 @@ package day01.单例;
  * @Date: 2024/1/30 15:02
  */
 public class Testggg {
-    public static void main(String[] args) {
 
-    }
 }
