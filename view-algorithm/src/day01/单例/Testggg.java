@@ -7,4 +7,10 @@ package day01.单例;
  */
 public class Testggg {
 
+    public static void main(String[] args) {
+        String i = "null";
+        String j = null;
+
+        System.out.println(i.equals(j));
+    }
 }
